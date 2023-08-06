@@ -1,0 +1,10 @@
+tokens and deployment are two separate topics in the context of software development. Tokens are often used for authentication and authorization purposes, while deployment refers to the process of making your application accessible to users. Let's briefly cover both topics and touch on how they relate to AWS.
+
+Tokens (Authentication and Authorization):
+
+Authentication: Tokens are commonly used for user authentication. When a user logs in, they receive a token, such as a JSON Web Token (JWT), which is then sent with each subsequent request to prove their identity.
+Authorization: Tokens are also used for authorization, determining what actions a user is allowed to perform. The token might contain information about the user's roles or permissions.
+Deployment:
+
+Application Deployment: Deployment involves making your application available for use by users. It includes various steps like setting up server environments, configuring databases, deploying code, and ensuring scalability and reliability.
+AWS for Deployment: Amazon Web Services (AWS) offers a range of services that can facilitate deployment, including Amazon Elastic Beanstalk, Amazon EC2, AWS Lambda, Amazon S3, and more.
